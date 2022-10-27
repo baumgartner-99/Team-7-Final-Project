@@ -14,3 +14,4 @@ For this assignment, we have chosen to analyze college football data from the pa
 
 Contributors:
 Rina Baumgartner
+**Alex Edwards**
