@@ -18,6 +18,9 @@ features to reduce the overfitting.
 
 
 Contributors:
+
 **Rina Baumgartner**
+
 **Alex Edwards**
+
 **Devon McGibbeny**
