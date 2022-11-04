@@ -14,7 +14,13 @@ In the first attempt we were able to predict the games from 2021 against the tes
 overfit, validated by comparing a prediction over the entire dataset. 
 
 Next step to tweak the model will be to determine the more relevant variables and reduce the number of 
-features to reduce the overfitting.   
+features to reduce the overfitting.
+
+Our presentation is drafted in Google slides: https://docs.google.com/presentation/d/1-i7EGTC6oRfCs9RbeHb-cJfZfSILhLGk2Yr58klKukc/edit?usp=sharing
+
+For our dashboard, we have decided to use plotly and ajax scripts with html to host a webpage. There will be interactive elements so that the user can filter information by team. A mockup of the dashboard is shown below:
+
+
 
 
 Contributors:
