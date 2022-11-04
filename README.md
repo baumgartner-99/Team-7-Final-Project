@@ -20,7 +20,7 @@ Our presentation is drafted in Google slides: https://docs.google.com/presentati
 
 For our dashboard, we have decided to use plotly and ajax scripts with html to host a webpage. There will be interactive elements so that the user can filter information by team. A mockup of the dashboard is shown below:
 
-
+![](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Visualizations/images/Dashboard%20Mockup.jpg) 
 
 
 Contributors:
