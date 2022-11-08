@@ -29,12 +29,12 @@ For our dashboard, we have decided to use plotly and ajax scripts with html to h
 
 ![](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Visualizations/images/Dashboard%20Mockup.jpg) 
 
-#cleaned data from api call
+# Cleaned data from api call
 ![1st_Dataframe](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Ace-database/Images/cleaned_dataframe.png)
 
 - Good old-fashioned data cleaning
 
-#Database
+# Database
 ![Database_sent](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Ace-database/Images/DatabaseData.png)
 
 - one of the imported datasets
