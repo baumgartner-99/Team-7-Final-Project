@@ -34,4 +34,8 @@ Contributors:
 
 **Alex Edwards**
 
+<<<<<<< HEAD
 **Devon McGibbeny**
+=======
+**Devon McGibbeny**
+>>>>>>> 53a2ee2b3e39b8bc2eed444b5c73cb90fde8ec39
