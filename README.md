@@ -32,7 +32,7 @@ For our dashboard, we have decided to use plotly and ajax scripts with html to h
 #cleaned data from api call
 ![1st_Dataframe](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Ace-database/Images/cleaned_dataframe.png)
 
--Good old-fashioned data cleaning
+- Good old-fashioned data cleaning
 
 #Database
 ![Database_sent](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Ace-database/Images/DatabaseData.png)
@@ -44,6 +44,7 @@ For our dashboard, we have decided to use plotly and ajax scripts with html to h
 
 - These Queries seperate the data I added to the database into seperate tables to be studied further.
 - One of our goals was to see if home field had an advantage. I made the data easier to determine that.
+- I added a home win column. 1 for true. 0 for false.
 - I also had to find a way to get rid of the duplicates.
 
 Contributors:
