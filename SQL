@@ -1,0 +1,36 @@
+-- creating a home team wins table
+SELECT "id", season, home_team_x, home_points, away_team_x, away_points
+INTO HomeTeamWins 
+FROM "machineLearning"
+WHERE home_points > away_points;
+
+-- creating an away team wins table
+SELECT "id", season, home_team_x, home_points, away_team_x, away_points
+INTO AwayTeamWins 
+FROM "machineLearning"
+WHERE home_points < away_points;
+
+
+DROP TABLE HomeWinData;
+-- creating a table that has a column that identifies if the home team won with a 1 or 0.
+-- 1 equals true 0 equals false
+SELECT "id", season, week, home_team_x, home_points, away_team_x, away_points,
+  Case WHEN  home_points > away_points
+    THEN 1
+    WHEN home_points < away_points
+    THEN 0
+  END as HomeWin
+INTO HomeWinData
+FROM "machineLearning";
+
+SELECT * FROM HomeWinData;
+
+-- gets rid of the duplicates by grouping them and giving it a count column which can be deleted later
+select "id", season, week, home_team_x, home_points, away_team_x, away_points, HomeWin,
+count(*) as cnt 
+INTO HomeWinTable
+from HomeWinData 
+group by "id", season, week, home_team_x, home_points, away_team_x, away_points, HomeWin
+having count(*) > 1;
+
+SELECT * FROM HomeWinTable;
