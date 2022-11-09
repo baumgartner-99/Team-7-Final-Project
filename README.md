@@ -39,6 +39,9 @@ For our dashboard, we have decided to use plotly and ajax scripts with html to h
 
 - one of the imported datasets
 
+# Database Connections
+![]()
+
 # SQL Query
 ![Sql_Code](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Ace-database/Images/SQL_code.png)
 
