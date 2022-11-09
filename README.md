@@ -39,6 +39,11 @@ For our dashboard, we have decided to use plotly and ajax scripts with html to h
 
 - one of the imported datasets
 
+# Database Connections
+![connection](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Ace-database/Images/Database_Connection.png)
+
+- We used SQLAlchemy to connect to PGAdmin4
+
 # SQL Query
 ![Sql_Code](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Ace-database/Images/SQL_code.png)
 
