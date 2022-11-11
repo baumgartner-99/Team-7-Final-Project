@@ -1,12 +1,5 @@
 # Team-7-Final-Project
 
-## Tools Used:
-- Pandas
-- Glob
-- CFBD (College Football Database)
-- SQLAlchemy
-- psycopg2
-
 ## College Football 2022 Predictions
 For this assignment, we have chosen to analyze college football data from the past twenty years to predict the outcomes of the games in Week 11 (Nov. 12) 
 for the 2022 season. We chose this topic, because all three of us are interested in college football and are interested to see how the rest of this season plays out.
@@ -29,28 +22,6 @@ For our dashboard, we have decided to use plotly and ajax scripts with html to h
 
 ![](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Visualizations/images/Dashboard%20Mockup.jpg) 
 
-# Cleaned data from api call
-![1st_Dataframe](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Ace-database/Images/cleaned_dataframe.png)
-
-- Good old-fashioned data cleaning
-
-# Database
-![Database_sent](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Ace-database/Images/DatabaseData.png)
-
-- one of the imported datasets
-
-# Database Connections
-![connection](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Ace-database/Images/Database_Connection.png)
-
-- We used SQLAlchemy to connect to PGAdmin4
-
-# SQL Query
-![Sql_Code](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Ace-database/Images/SQL_code.png)
-
-- These Queries seperate the data I added to the database into seperate tables to be studied further.
-- One of our goals was to see if home field had an advantage. I made the data easier to determine that.
-- I added a home win column. 1 for true. 0 for false.
-- I also had to find a way to get rid of the duplicates.
 
 Contributors:
 
