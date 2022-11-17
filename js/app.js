@@ -1,7 +1,7 @@
 function init(){
     var selector =d3.select("#selDataset");
 
-    d3.json("data/ML_ready_data.json").then(function(data) {
+    d3.json("../Data/ML_ready_data.json").then(function(data) {
         var gameIDS = data;
 
         gameIDS.forEach((game) => {
@@ -25,7 +25,7 @@ function optionChanged(newGame) {
 }
 
 function buildGameData(game) {
-    d3.json("data/ML_ready_data.json").then((data) => {
+    d3.json("../Data/ML_ready_data.json").then((data) => {
         var arrayOfGames = []
         data.forEach((item) => {
             arrayOfGames.push(item);
@@ -45,7 +45,7 @@ function buildGameData(game) {
 
 function buildCharts(game) {
     // Use d3.json to load and retrieve the .json file 
-    d3.json("data/ML_ready_data.json").then((data) => {
+    d3.json("../Data/ML_ready_data.json").then((data) => {
       var arrayOfGames2 = []
         data.forEach((item) => {
             arrayOfGames2.push(item);
