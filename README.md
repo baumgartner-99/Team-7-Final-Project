@@ -6,6 +6,9 @@
 - CFBD (College Football Database)
 - SQLAlchemy
 - psycopg2
+- JavaScript
+- Bootstrap
+- Plotly
 
 ## College Football 2022 Predictions
 For this assignment, we have chosen to analyze college football data from the past twenty years to predict the outcomes of the games in Week 11 (Nov. 12) 
@@ -24,10 +27,6 @@ Next step to tweak the model will be to determine the more relevant variables an
 features to reduce the overfitting.
 
 Our presentation is drafted in Google slides: https://docs.google.com/presentation/d/1-i7EGTC6oRfCs9RbeHb-cJfZfSILhLGk2Yr58klKukc/edit?usp=sharing
-
-For our dashboard, we have decided to use plotly and ajax scripts with html to host a webpage. There will be interactive elements so that the user can filter information by team. A mockup of the dashboard is shown below:
-
-![](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Visualizations/images/Dashboard%20Mockup.jpg) 
 
 # Cleaned data from api call
 ![1st_Dataframe](https://github.com/baumgartner-99/Team-7-Final-Project/blob/Ace-database/Images/cleaned_dataframe.png)
@@ -51,6 +50,29 @@ For our dashboard, we have decided to use plotly and ajax scripts with html to h
 - One of our goals was to see if home field had an advantage. I made the data easier to determine that.
 - I added a home win column. 1 for true. 0 for false.
 - I also had to find a way to get rid of the duplicates.
+
+# Dashboard
+For our dashboard, we decided to use Javascript and Plotly to create interactive charts and tables. We are hosting the page using GitHub pages: https://baumgartner-99.github.io/Team-7-Final-Project/. 
+
+![](https://github.com/baumgartner-99/Team-7-Final-Project/blob/main/images/Screenshot%202022-11-16%20at%209.29.09%20PM.png)
+
+There are several charts on the Dashboard, with two additional pages displaying more data.
+
+![](https://github.com/baumgartner-99/Team-7-Final-Project/blob/main/images/average_home_vs_away.png)
+
+The above graph shows the average points scored for each team. The two bars in the middle are average scores across every team taken over the time period we analyzed: 2015 to 2022. There is one for home average and one for away average. The bars on the end represent each team’s average score based on whether or not they were the home or away team.
+
+![](https://github.com/baumgartner-99/Team-7-Final-Project/blob/main/images/single_home_vs_away.png)
+
+This graph represents the scores for a single game (chosen by the user) and overall average scores across all teams from 2015 to 2022. In this instance, South Carolina scored greater points in this single game than North Carolina. Both teams scored far less than the average points generally earned in a game.
+
+![](https://github.com/baumgartner-99/Team-7-Final-Project/blob/main/images/scoring_over_time.png)
+
+This graph shows scoring over time for each team versus league averages.
+
+![](https://github.com/baumgartner-99/Team-7-Final-Project/blob/main/images/predictions_table.png)
+
+Finally, this is the table showing our machine learning predictions versus the actual outcome of Week 11 games.
 
 Contributors:
 
