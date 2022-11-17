@@ -1,4 +1,4 @@
-d3.csv("/Data/Week11_GamePredictions.csv", d3.autoType).then((data) => {
+d3.csv("../Data/Week11_GamePredictions.csv", d3.autoType).then((data) => {
     var rows = data
     function unpack(row, key) {
     return rows.map(function(row) { return row[key];});
