@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Football Predictions</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="/Team-7-Final-Project/style.css">
+<script type="text/javascript"
+src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+<script type="text/javascript">
+  function initViz() {
+      var containerDiv = document.getElementById("vizContainer"),
+          url = "https://public.tableau.com/views/project2_16686494361950/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
+          options = {
+              hideTabs: true,
+              onFirstInteractive: function () {
+                  console.log("Run this code when the viz has finished loading.");
+              }
+          };
+
+      var viz = new tableau.Viz(containerDiv, url, options);
+      // Create a viz object and embed it in the container div.
+      var containerDiv2 = document.getElementById("vizContainer2"),
+          url2 = "https://public.tableau.com/views/Project12_16686527952810/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
+          options2 = {
+              hideTabs: true,
+              onFirstInteractive: function () {
+                  console.log("Run this code when the viz has finished loading.");
+              }
+          };
+
+      var viz2 = new tableau.Viz(containerDiv2, url2, options2);
+      var containerDiv3 = document.getElementById("vizContainer3"),
+          url3 = "https://public.tableau.com/views/project123_16687162485010/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link",
+          options3 = {
+              hideTabs: true,
+              onFirstInteractive: function () {
+                  console.log("Run this code when the viz has finished loading.");
+              }
+          };
+
+      var viz3 = new tableau.Viz(containerDiv3, url3, options3);
+  }
+</script>
+
+<style>
+</style>
+</head>
+<body onload="initViz();">
+
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="/Team-7-Final-Project/index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="/Team-7-Final-Project/predictions.html" class="w3-button w3-block w3-black">Predictions</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="/Team-7-Final-Project/tableau.html" class="w3-button w3-block w3-black">Tableau</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="/Team-7-Final-Project/credits.html" class="w3-button w3-block w3-black">Credits</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home"  style="background-image: url('images/1280.jpg');">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Data Friendly</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">Football<br>Predictions</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Alex, Rina, Devon</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Tableau</span></h5>
+    <div id="vizContainer2" style="width:600px; height:500px;"></div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>ACC and SEC score the most Home Points</i></p>
+      <p><i>Big Ten and SEC have the most Home Wins</i></p>
+    </div>
+    <img src="/Team-7-Final-Project/images/177291339.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Homefield Grass:</strong> nohing like stepping on your own grass to make you feel like a winnner.</p>
+    <p><strong>Home Wins:</strong> with the graphs below, we are shown that thew home team wins a good percentage more than not</p>
+    <div id="vizContainer" style="width:800px; height:700px;"></div>
+    <br><br><br>
+    <div id="vizContainer3" style="width:800px; height:700px;"></div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <p><i>We see that average points scored are really close on nuetral sites and non-nuetral sites</i></p>
+    <p><i>A lot of high point games on non-nuetral sites but are evened out with low scoring games. You have to imagine that sainvce there are less
+    nuetral site games than not, that if nuetral site games had played as many, they would have more high point games</i></p>
+    <p><i>Spread vs margin will show you expected game out vs actual outcome. Games in the top left and bottom right went differently than expected.</i></p>
+    <p><i>There are not too many markers in the top left and bottom right. So we know that site does not give the under dog an advantage.</i></p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE WORK</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Tools');" id="myLink">
+        <div class="w3-col s6 tablink">Tools</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Process');">
+        <div class="w3-col s6 tablink">Process</div>
+      </a>
+    </div>
+
+    <div id="Tools" class="w3-container menu w3-padding-48 w3-card">
+      <p class="w3-text-grey">Pandas</p><br>
+      <p class="w3-text-grey">Jupyter Notebook</p><br>
+      <p class="w3-text-grey">Postgres</p><br>
+      <p class="w3-text-grey">Pyhton and Javascript</p><br>
+      <p class="w3-text-grey">Machine Learning</p><br>
+    </div>
+
+    <div id="Process" class="w3-container menu w3-padding-48 w3-card">
+      <p class="w3-text-grey">API Call</p><br>
+      <p class="w3-text-grey">Data Cleaning</p><br>
+      <p class="w3-text-grey">SQL Storing, Manipulating, and Retireving</p><br>
+      <p class="w3-text-grey">Model Training and Testing</p><br>
+      <p class="w3-text-grey">Visualizing Data</p><br>
+    
+    </div>  
+    <img src="/Team-7-Final-Project/images/10797585.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
