@@ -1,4 +1,4 @@
-d3.csv("/Team-7-Final-Project/Data/Week11_GamePredictions.csv", d3.autoType).then((data) => {
+d3.csv("/Team-7-Final-Project/Data/Presentation_Predictions.csv", d3.autoType).then((data) => {
     var rows = data
     function unpack(row, key) {
     return rows.map(function(row) { return row[key];});
@@ -7,8 +7,9 @@ d3.csv("/Team-7-Final-Project/Data/Week11_GamePredictions.csv", d3.autoType).the
 
     // header values
     var headerNames = d3.keys(rows[0]);
-    var headerValues = [headerNames[2], headerNames[4], 
-                        headerNames[8], headerNames[9]];
+    var headerValues = [headerNames[0], headerNames[1], 
+                        headerNames[2], headerNames[3], 
+                        headerNames[4], headerNames[5]];
 
     // cell values
     var cellValues = [];
@@ -23,7 +24,9 @@ var tableData = [{
         values: [["<b>Home Team</b>"],
                 ["<b>Away Team</b>"], 
                 ["<b>Prediction Value</b>"],
-                ["<b>Predicted Winner</b>"]],
+                ["<b>Predicted Winner</b>"],
+                ["<b>Margin</b>"],
+                ["<b>Actual Winner</b>"]],
         align: "center",
         line: {width: 1, color: 'rgb(50, 50, 50)'},
         fill: {color: ['rgb(0, 153, 0)']},
