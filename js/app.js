@@ -45,7 +45,7 @@ function buildGameData(game) {
 
 function buildCharts(game) {
     // Use d3.json to load and retrieve the .json file 
-    d3.json("/Team-7-Final-Project/Data/ML_ready_data.json").then((data) => {
+    d3.json("../Team-7-Final-Project/Data/ML_ready_data.json").then((data) => {
       var arrayOfGames2 = []
         data.forEach((item) => {
             arrayOfGames2.push(item);
