@@ -1,0 +1,65 @@
+season,week,home_team_x,home_points,away_team_x,away_points,spread,margin,PREDICTION,Predicted_Winner
+2022,11,Akron,28.0,Eastern Michigan,34.0,6.5,6.0,15.648195686410993,Eastern Michigan
+2022,11,Miami (OH),21.0,Ohio,37.0,2.5,16.0,6.34765625,Ohio
+2022,11,Toledo,28.0,Ball State,21.0,-13.5,-7.0,-11.04987311316011,Toledo
+2022,11,Western Michigan,21.0,Northern Illinois,24.0,1.0,3.0,4.919921875,Northern Illinois
+2022,11,Bowling Green,6.0,Kent State,40.0,2.5,34.0,-1.8168678551381263,Bowling Green
+2022,11,Central Michigan,31.0,Buffalo,27.0,-2.5,-4.0,-0.5689630575345316,Central Michigan
+2022,11,Memphis,26.0,Tulsa,10.0,-6.5,-16.0,-7.846200103087039,Memphis
+2022,11,Louisiana,36.0,Georgia Southern,17.0,-3.5,-19.0,-11.951171875,Louisiana
+2022,11,Cincinnati,27.0,East Carolina,25.0,-4.5,-2.0,-3.03125,Cincinnati
+2022,11,USC,55.0,Colorado,17.0,-34.5,-38.0,-31.784735795672766,USC
+2022,11,UNLV,30.0,Fresno State,37.0,8.5,7.0,12.651811398964046,Fresno State
+2022,11,Tennessee,66.0,Missouri,24.0,-19.5,-42.0,-31.7265625,Tennessee
+2022,11,Connecticut,36.0,Liberty,33.0,13.5,-3.0,3.698118089378433,Liberty
+2022,11,Virginia,7.0,Pittsburgh,37.0,5.5,30.0,21.170951789723745,Pittsburgh
+2022,11,South Florida,23.0,SMU,41.0,17.5,18.0,22.749929839702922,SMU
+2022,11,Duke,24.0,Virginia Tech,7.0,-10.0,-17.0,-2.1522724185014153,Duke
+2022,11,Kentucky,21.0,Vanderbilt,24.0,-17.0,3.0,-2.052734375,Kentucky
+2022,11,Arkansas,10.0,LSU,13.0,3.5,3.0,-0.16015625,Arkansas
+2022,11,West Virginia,23.0,Oklahoma,20.0,8.5,-3.0,7.4685725496546835,Oklahoma
+2022,11,Ohio State,56.0,Indiana,14.0,-40.5,-42.0,-38.2657171393863,Ohio State
+2022,11,Navy,32.0,Notre Dame,35.0,17.0,3.0,5.4072799147237465,Notre Dame
+2022,11,Michigan State,27.0,Rutgers,21.0,-10.0,-6.0,-6.266228682534532,Michigan State
+2022,11,Old Dominion,3.0,James Madison,37.0,7.5,34.0,18.67666908732734,James Madison
+2022,11,Georgia State,28.0,Louisiana Monroe,31.0,-13.5,3.0,-8.199201344216284,Georgia State
+2022,11,Western Kentucky,45.0,Rice,10.0,-13.5,-35.0,-30.374691485792138,Western Kentucky
+2022,11,Houston,43.0,Temple,36.0,-20.0,-7.0,-22.543336986976122,Houston
+2022,11,Arkansas State,35.0,UMass,33.0,-17.5,-2.0,-13.799427747632024,Arkansas State
+2022,11,Clemson,31.0,Louisville,16.0,-7.0,-15.0,-10.2890625,Clemson
+2022,11,Ole Miss,24.0,Alabama,30.0,11.0,6.0,9.818004474309365,Alabama
+2022,11,UT San Antonio,51.0,Louisiana Tech,7.0,-17.5,-44.0,-15.684775589480338,UT San Antonio
+2022,11,Washington State,28.0,Arizona State,18.0,-9.5,-10.0,-9.2265625,Washington State
+2022,11,Troy,10.0,Army,9.0,-8.5,-1.0,-2.56640625,Troy
+2022,11,Penn State,30.0,Maryland,0.0,-10.5,-30.0,-5.546875,Penn State
+2022,11,UAB,41.0,North Texas,21.0,-6.5,-20.0,-16.353515625,UAB
+2022,11,Iowa,24.0,Wisconsin,10.0,1.5,-14.0,-5.4375,Iowa
+2022,11,NC State,20.0,Boston College,21.0,-18.0,1.0,-8.002552747632022,NC State
+2022,11,Georgia Tech,14.0,Miami,35.0,-2.0,21.0,-5.403409037672658,Georgia Tech
+2022,11,Oklahoma State,20.0,Iowa State,14.0,2.5,-6.0,-1.3955965376726573,Oklahoma State
+2022,11,Minnesota,31.0,Northwestern,3.0,-17.0,-28.0,-25.05911624408006,Minnesota
+2022,11,Michigan,34.0,Nebraska,3.0,-30.5,-31.0,-30.165012953824448,Michigan
+2022,11,Middle Tennessee,24.0,Charlotte,14.0,-10.0,-10.0,-12.08203125,Middle Tennessee
+2022,11,Tulane,31.0,UCF,38.0,-1.0,7.0,10.61328125,UCF
+2022,11,Air Force,35.0,New Mexico,3.0,-21.0,-32.0,-27.612895607240173,Air Force
+2022,11,Florida,38.0,South Carolina,6.0,-8.0,-32.0,-23.296875,Florida
+2022,11,South Alabama,38.0,Texas State,21.0,-16.5,-17.0,-16.090211986976122,South Alabama
+2022,11,Mississippi State,19.0,Georgia,45.0,16.5,26.0,22.59989352979281,Georgia
+2022,11,Colorado State,13.0,Wyoming,14.0,8.5,1.0,2.3404120595856215,Wyoming
+2022,11,Baylor,3.0,Kansas State,31.0,-2.5,28.0,16.413771391575843,Kansas State
+2022,11,Texas Tech,43.0,Kansas,28.0,-3.5,-15.0,2.125,Kansas
+2022,11,Florida International,7.0,Florida Atlantic,52.0,15.5,45.0,15.99442477979281,Florida Atlantic
+2022,11,Oregon,34.0,Washington,37.0,-12.0,3.0,-3.71484375,Oregon
+2022,11,Auburn,13.0,Texas A&M,10.0,-1.5,-3.0,-11.3828125,Auburn
+2022,11,Coastal Carolina,26.0,Southern Mississippi,23.0,-5.0,-3.0,-5.826171875,Coastal Carolina
+2022,11,Texas,10.0,TCU,17.0,-7.5,7.0,1.7335938671201534,TCU
+2022,11,Wake Forest,34.0,North Carolina,36.0,-4.5,2.0,2.16015625,North Carolina
+2022,11,Syracuse,3.0,Florida State,38.0,7.0,35.0,9.13700290479281,Florida State
+2022,11,Oregon State,38.0,California,10.0,-11.5,-28.0,-23.185546875,Oregon State
+2022,11,Utah,42.0,Stanford,7.0,-24.0,-35.0,-29.01953125,Utah
+2022,11,San Diego State,43.0,San José State,27.0,2.0,-16.0,-2.414593113885074,San Diego State
+2022,11,Nevada,3.0,Boise State,41.0,21.0,38.0,30.271733156843894,Boise State
+2022,11,UCLA,28.0,Arizona,34.0,-20.0,6.0,-2.9601836202640435,UCLA
+2022,11,Hawai'i,34.0,Utah State,41.0,10.5,7.0,8.638813952396404,Utah State
+2022,11,Illinois,24.0,Purdue,31.0,0.0,0.0,-0.49609375,Illinois
+2022,11,Marshall,0.0,Appalachian State,0.0,0.0,0.0,1.001953125,Appalachian State
